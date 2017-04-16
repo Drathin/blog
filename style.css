@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+a{ text-decoration:none;}
+
+/* 菜单 */
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+nav.navbar-inverse {
+    min-height: none;
+    background-color:#27B36D;
+    border: none;
+    border-radius: 0 !important;
+}
+.navbar-inverse .navbar-brand {
+  color: #FAF4F4;
+}
+.navbar-inverse .navbar-nav>li>a {
+  text-decoration:none;
+  color: #FAF4F4;
+  }
+
+.navbar-inverse .navbar-toggle {
+  border-color: #EDE7E7;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #27B36D;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color:#27B36D;
+}
+
+/*@media all and (max-width:767px)*/
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {text-decoration:none;
+    color: #FAF4F4;
+}
+.dropdown-menu{background-color:#27B36D;}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color:#27B36D;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color:#27B36D;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: #FAF4F4;}
+
+
+
+
+/* 第二板块 */
+.nav2{
+    background: #f3f4f5;
+    text-align: left;
+    padding: 25px 0;
+}
